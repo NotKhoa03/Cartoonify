@@ -125,8 +125,8 @@ export default function Home() {
 
         <ReactCompareImage
           aspectRatio="wider"
-          leftImage={before}
-          rightImage={after}
+          leftImage={beforePlaceholder}
+          rightImage={afterPlaceholder}
           leftImageLabel="Before"
           rightImageLabel="After"
           sliderPositionPercentage={percentage}
